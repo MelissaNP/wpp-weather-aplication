@@ -14,7 +14,6 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
 @Service
 public class TwilioService {
     
@@ -29,8 +28,10 @@ public class TwilioService {
         this.accountSid = accountSid;
         this.authToken = authToken;
         this.twilioPhoneNumber = twilioPhoneNumber;
-        
-     
+    }
+    
+    @PostConstruct
+    public void init() {
         Twilio.init(this.accountSid, this.authToken);
     }
     
