@@ -18,7 +18,7 @@ The API provides a single endpoint `/whatsapp` to handle incoming messages from 
 
 You can see the application in action by messaging the Twilio number connected to this service with a location, such as "São Carlos."
 
-[Watch the demo video](Assets/Screen_Recording_20240825_190303_WhatsApp(1).mp4)
+[Watch the demo video](Assets/Screen_Recording.mp4)
 ## Authors
 
 - **Melissa Pereira** - [GitHub Profile](https://github.com/melissapereira)
